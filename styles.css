@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +21,7 @@ body {
 #blog-card {
   flex: 1;
   display: flex;
-  align-items: left;
+  align-items: flex-start;
   justify-content: flex-start;
   background-color: #ffff;
   flex-direction: column;
@@ -36,14 +38,17 @@ body {
 #tag {
   background-color: hsl(47, 88%, 63%);
   border-radius: 3px;
-  padding: 5px;
+  padding: 7px;
   display: flex;
   max-width: fit-content;
 }
+
+.thumbnail {
+  align-self: center;
+  width: 100%; 
+}
 .thumbnail img {
   border-radius: 15px;
-  display: flex;
-  align-items: center;
   width: 100%;
   height: auto;
 }
@@ -70,18 +75,16 @@ h1,
   color: hsl(0, 0%, 7%);
 }
 
-.subtitle p {
-  font-weight: 500px;
+.subtitle {
+  font-weight: 500;
   color: hsl(0, 0%, 7%);
 }
 h1 {
   font-size: 24px;
-  margin-top: 16px;
 }
 .description {
-  margin-top: 16px;
   color: hsl(0, 0%, 42%);
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 /*FOOTER*/

@@ -28,8 +28,9 @@ gap: 1.5rem;
 padding: 1.5rem;
 border-style: solid;
 border-color: hsl(0, 0%, 7%);
-border-radius: 10px;
-max-width: 800px;
+border-radius: 15px;
+max-width: 400px;
+max-height: 600px;
 }
 
 #tag{
@@ -40,7 +41,7 @@ background-color: hsl(47, 88%, 63%);
    max-width: fit-content;
 }
 .thumbnail img{
-    border-radius: 10px;
+    border-radius: 15px;
     display:flex;
     align-items: center;
     width: 100%;
@@ -48,9 +49,10 @@ background-color: hsl(47, 88%, 63%);
 }
 
 .author-thumbnail{
-    display: flex;
-   align-items: space-between;
+     display: flex;
+  flex-direction: row;
 margin-top: auto;
+align-items: center;
    gap: 1rem;
 }
 
@@ -67,6 +69,9 @@ margin-top: auto;
 }
 
 /*FOOTER*/
+footer{
+  padding: 1rem;
+}
  .attribution { 
     font-size: 11px; text-align: center; 
 }
